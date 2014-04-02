@@ -1,13 +1,13 @@
 
 try {
-  var escape = require('escape-regexp');
+  var escape = require('component-escape-regexp');
 } catch (e) {
-  var escape = require('escape-regexp-component');
+  // commented out by npm-component: var escape = require('escape-regexp-component');
 }
 
-var capital = require('to-capital-case');
-var map = require('map');
-var minors = require('title-case-minors');
+var capital = require('ianstormtaylor-to-capital-case');
+var map = require('ianstormtaylor-map');
+var minors = require('ianstormtaylor-title-case-minors');
 
 
 /**

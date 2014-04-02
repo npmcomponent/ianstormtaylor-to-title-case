@@ -1,9 +1,7 @@
 {
-  "name": "to-title-case",
-  "repository": "git://github.com/ianstormtaylor/to-title-case.git",
-  "license": "MIT",
+  "name": "ianstormtaylor-to-title-case",
+  "description": "Convert a string to a title case.",
   "version": "0.1.4",
-  "description": "Convert a string to title case.",
   "keywords": [
     "title",
     "case",
@@ -11,9 +9,10 @@
     "string"
   ],
   "dependencies": {
-    "escape-regexp-component": "1.0.2",
-    "map": "ianstormtaylor/map#0.1.2",
-    "title-case-minors": "0.0.2",
-    "to-capital-case": "0.1.1"
-  }
+    "component-escape-regexp": "git://github.com/npmcomponent/component-escape-regexp.git",
+    "ianstormtaylor-map": "git://github.com/npmcomponent/ianstormtaylor-map.git",
+    "ianstormtaylor-title-case-minors": "git://github.com/npmcomponent/ianstormtaylor-title-case-minors.git",
+    "ianstormtaylor-to-capital-case": "git://github.com/npmcomponent/ianstormtaylor-to-capital-case.git"
+  },
+  "license": "MIT"
 }
